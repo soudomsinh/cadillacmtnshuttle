@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
+
+@media (max-width: 576px) {
+    .col-lg-4 {
+      display: flex;
+      justify-content: center; 
+      align-items: center; 
+      text-align: center; 
+      height: 50vh; 
+      flex-direction: column; 
+    }
+  }
+
+
+/* center navbar menu on small screen  */
+@media (max-width: 767px) {
+    .custom-navbar {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .navbar-nav {
+        justify-content: center;
+    }
+    .navbar-toggler {
+        position: absolute;
+        top: 7px;
+        right: 7px;
+        z-index: 1; 
+        background-color:  #01796F !important;
+    }
+    
+    .navbar-toggler-icon {
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+    }
+} 
+
+/* ipad screen */
+@media (max-width: 1024px) {
+    .custom-navbar {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .navbar-nav {
+        justify-content: center;
+    }
+    .navbar-toggler {
+        position: absolute;
+        top: 15px;
+        right: 15px;
+        z-index: 1; 
+        background-color:  #01796F !important;
+    }
+    .navbar-toggler-icon {
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+    }
+}
+
+
+.front-text {
+    position: relative;
+    z-index: 2;
+}
+
+/* Navbar logo center below */
+.navbar-toggler {
+    font-size: 0.7rem; 
+}
+.navbar-toggler-icon {
+    background-size: 1.5em 1.5em; 
+}
+
+  
+
+
+/* center logo image to center */
+@media (max-width: 768px) {
+    img {
+        max-width: 75%!important;
+    }
+}
+
+/* make social media icons center on mobile screen */
+@media screen and (max-width: 768px) {
+    .social-media-connect {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+.social-media-connect {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+}
+
+.social-media-connect > * {
+    margin-right: 10px;
+}
+
+.social-media-connect > *:last-child {
+    margin-right: 0;
+}
+
+
+/* .gray-bg {
+    background-color: rgba(42, 41, 41, 0.5); 
+    height: 568px;
+    width: 400px;
+} */
+
+.section-bg{
+    background-color: #e6e7e0; 
+}
+
+/* Bg image */
+body, html {
+    height: 100%;
+    margin: 0;
+    background-color:white;
+  }
+
+
+
+  
+.bg-image {
+    /* The image used */
+    background-image: url("images/bus.jpeg");
+  
+    height: 70%; 
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    
+  }
+
+
+.navbar-logo{
+    width: 50px; 
+    height: 50px;
+}
+
+.header-margin {
+    margin-top: 200px;
+}
+
+.navbar-toggler {
+    order: 2;
+}
+.navbar-custom{
+    background-color: white;
+    
+    
+}
+.nav-text-color{
+    color: #01796F;
+}
+
+.navbar-fixed-top.scrolled {
+    background-color:#01796F !important;
+    transition: background-color 200ms linear;
+  }
+  
+  .navbar-fixed-top.scrolled a.nav-link {
+    color: #FFFFFF !important;
+  }
+  
+ 
+li a {
+    text-decoration:none;
+  }
+  
+  li a:hover {
+      text-decoration: underline;
+  }
+
+.header-margin{
+    letter-spacing: 2px;
+    line-height: 1.2;
+    text-align: center;
+    margin: auto;
+}
+
+.carousel-item {
+    height: 300px;  
+}
+
+.carousel-image-1{
+    background-image: url("images/cadillac-rainbow.JPG");
+    /* height: 500px; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    
+    
+}
+
+
+.carousel-image-2{
+    background-image: url("images/cadillac2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    
+
+}
+
+.carousel-image-3{
+    background-image: url("images/img1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+/* map */
+.map-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+@media screen and (max-width: 480px) { 
+    .map {
+        width: 100%;
+        height: auto;
+    }
+}
+
+
+
+
+/* footer */
+.footer{
+    background-color: #f5f6f0;
+}
+
+.logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+  }
+
